@@ -17,18 +17,27 @@ h1 {
 	text-shadow: 0px 0px 2px #333;
 }
 
+h3 {
+	font-weight: 100;
+	color: white;
+	text-shadow: 0px 0px 2px #333;
+}
+
 #maincontainer {
 	text-align: center;
 }
 
 #soundcloud {
 	text-align: center;
+}
+
+#player {
 	opacity: 0.2;
 	transition: opacity .5s ease-in-out;
    -moz-transition: opacity .5s ease-in-out;
    -webkit-transition: opacity .5s ease-in-out;
 }
 
-#soundcloud:hover {
+#player:hover {
 	opacity: 0.8;
 }
